@@ -6,12 +6,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyDIfMsVS5f062A7YlkzG3kgY3j99OANen4",
-      authDomain: "thappdev-b564c.firebaseapp.com",
-      projectId: "thappdev-b564c",
-      storageBucket: "thappdev-b564c.firebasestorage.app",
-      messagingSenderId: "105054009739",
-      appId: "1:105054009739:web:4a3f6f9e2335b064f7578e",
+      ",
     ),
   );
 
